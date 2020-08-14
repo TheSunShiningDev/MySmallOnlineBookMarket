@@ -1,0 +1,79 @@
+body{
+    font-size: 20px;
+    font-family: arial;
+    background-color: yellow;
+    }
+    header {
+    background-color: lightgrey;
+    border: 10px solid black;
+    padding: 20px;
+    }
+    #BookTable {
+    background-image: url('tabletop1.jpg');
+    max-width: 100%;
+    padding: 20px;
+    margin: 20px;
+      border-top-left-radius:     10%;
+      border-top-right-radius:    10%;
+      border-bottom-right-radius: 10%;
+      border-bottom-left-radius:  10%;
+      overflow: hidden;
+    }
+    footer {
+    background-color: lightgreen;
+    padding: 20px;
+    text-align: center;
+    border: 5px solid green;
+    }
+    #BookSpot {
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    }
+    #sharebox {
+    border: 5px dotted purple;
+    
+    }
+
+
+
+
+
+
+
+
+
+    /* Solid border */
+  hr.solid {
+    border-top: 3px solid #bbb;
+    width: 100%;
+  }
+  
+  /* Rounded border */
+  hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+    width: 100%;
+  }
+
+
+
+
+   /* Scrollbar */
+:root {
+    --shadow: #860404;
+    --scrollbarBG: rgb(245, 241, 10);
+    --thumbBG: #fb0202;
+  }
+  ::-webkit-scrollbar {
+    width: 16px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG);
+    box-shadow: 0 -100vh 0 100vh var(--shadow), 0 0 15px 5px rgb(14, 139, 255);
+  }
+ /* Scrollbar */
